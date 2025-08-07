@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from langchain_ollama import ChatOllama
 
-# TOGETHER_API_KEY = "1d6484b324354769daec04b664e242bc764a8f399b7778ca635e8e9e3e0a7f62"
+
 # client = Together(api_key = TOGETHER_API_KEY)
 
 model = ChatOllama(model="llama3.2:3b", temprature = 1)
