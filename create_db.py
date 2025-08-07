@@ -11,7 +11,7 @@ with open(file_path_document, "rb") as file:
 
 
 embedding_model = HuggingFaceEmbeddings(
-    model_name="BAAI/bge-large-en-v1.5", model_kwargs={"device": "cuda"}
+    model_name="BAAI/bge-m3", model_kwargs={"device": "cuda"}
 )
 
 vectorstore = FAISS.from_documents(contextual_texts, embedding_model)
