@@ -141,8 +141,8 @@ for i in range(len(texts)):
 
 
 print(f"contextulized text is created and the length of the contestualize text is {len(contextual_texts)}")
-contextual_chunks = [generate_context(prompts[i])+' '+texts[i].page_content for i in range(len(texts))]
-print(contextual_chunks[:10])
+# contextual_chunks = [generate_context(prompts[i])+' '+texts[i].page_content for i in range(len(texts))]
+# print(contextual_chunks[:10])
 #Save to file
 save_contextual_texts(contextual_texts, file_path)
 
